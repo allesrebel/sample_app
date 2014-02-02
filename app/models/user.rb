@@ -11,7 +11,6 @@ class User < ActiveRecord::Base
   validates :email, presence:   true, 
                     format:     {with: VALID_EMAIL_REGEX}, 
                     uniqueness: {case_senstive: false}
-                    
   #auto checks for presence of password and much more
   has_secure_password
 
