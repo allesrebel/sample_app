@@ -11,7 +11,11 @@ gem 'rspec-rails', '2.13.1'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
 
+#used for bootstrap css stuff
 gem 'bootstrap-sass', '2.3.2.0'
+
+#used for password encruption
+gem 'bcrypt-ruby', '3.1.2'
 
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
